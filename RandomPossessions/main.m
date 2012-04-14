@@ -16,6 +16,12 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!!!");
         
+        // From "Beginning RandomPossessions", Chapter 2
+        NSMutableArray *items = [[NSMutableArray alloc] init];
+        
+        // Destroy the array pointed to by 'items'
+        items = nil;
+        
     }
     return 0;
 }
