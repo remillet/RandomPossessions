@@ -29,7 +29,7 @@
 		79B528521538FE33003C5EF9 /* RandomPossessions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RandomPossessions; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B528561538FE33003C5EF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79B528591538FE33003C5EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79B5285C1538FE33003C5EF9 /* RandomPossessions-Prefix.pch */ = {isa = PBXFileReference; path = "RandomPossessions-Prefix.pch"; sourceTree = "<group>"; };
+		79B5285C1538FE33003C5EF9 /* RandomPossessions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPossessions-Prefix.pch"; sourceTree = "<group>"; };
 		79B5285D1538FE34003C5EF9 /* RandomPossessions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomPossessions.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
