@@ -39,6 +39,9 @@ int main(int argc, const char * argv[])
             NSLog(@"Item at index:%d is:%@", i, [items objectAtIndex:i]);
         }
         
+        // Log the array itself
+        NSLog(@"The array is: %@", items);
+        
         // Destroy the array pointed to by 'items'
         items = nil;
         
