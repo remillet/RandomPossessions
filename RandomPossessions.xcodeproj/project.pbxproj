@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		79B528571538FE33003C5EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B528561538FE33003C5EF9 /* Foundation.framework */; };
 		79B5285A1538FE33003C5EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B528591538FE33003C5EF9 /* main.m */; };
-		79B5285E1538FE34003C5EF9 /* RandomPossessions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79B5285D1538FE34003C5EF9 /* RandomPossessions.1 */; };
 		9A05074415394EB100A2741C /* REMFirecracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A05074315394EB100A2741C /* REMFirecracker.m */; };
 		9A05074815394F1F00A2741C /* REMCow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A05074715394F1F00A2741C /* REMCow.m */; };
 /* End PBXBuildFile section */
@@ -21,7 +20,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				79B5285E1538FE34003C5EF9 /* RandomPossessions.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -32,7 +30,6 @@
 		79B528561538FE33003C5EF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79B528591538FE33003C5EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79B5285C1538FE33003C5EF9 /* RandomPossessions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPossessions-Prefix.pch"; sourceTree = "<group>"; };
-		79B5285D1538FE34003C5EF9 /* RandomPossessions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomPossessions.1; sourceTree = "<group>"; };
 		9A05074215394EB100A2741C /* REMFirecracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMFirecracker.h; sourceTree = "<group>"; };
 		9A05074315394EB100A2741C /* REMFirecracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMFirecracker.m; sourceTree = "<group>"; };
 		9A05074615394F1F00A2741C /* REMCow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMCow.h; sourceTree = "<group>"; };
@@ -84,7 +81,6 @@
 				9A05074715394F1F00A2741C /* REMCow.m */,
 				9A05074215394EB100A2741C /* REMFirecracker.h */,
 				9A05074315394EB100A2741C /* REMFirecracker.m */,
-				79B5285D1538FE34003C5EF9 /* RandomPossessions.1 */,
 				79B5285B1538FE33003C5EF9 /* Supporting Files */,
 			);
 			path = RandomPossessions;
