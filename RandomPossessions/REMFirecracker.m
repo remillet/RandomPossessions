@@ -12,7 +12,7 @@
 
 - (NSString *) description
 {
-    return @"Bang!";
+    return @"Bang! Boom!";
 }
 
 @end
