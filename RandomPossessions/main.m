@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "REMFirecracker.h"
 #import "REMCow.h"
+#import "BNRItem.h"
 
 int main(int argc, const char * argv[])
 {
@@ -41,6 +42,13 @@ int main(int argc, const char * argv[])
         
         // Log the array itself
         NSLog(@"The array is: %@", items);
+        
+        // Create a BNRItem instance
+        BNRItem *item = [[BNRItem alloc] init];
+        [item setItemName:@"Red sofa"];
+        [item setSerialNumber:@"A1B2C"];
+        [item setValueInDollars:100];
+        NSLog(@"%@ %@ %d %@", [item itemName], [item serialNumber], [item valueInDollars], [item dateCreated]);
         
         // Destroy the array pointed to by 'items'
         items = nil;
