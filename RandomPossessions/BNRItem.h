@@ -16,6 +16,16 @@
     NSDate *dateCreated;
 }
 
+//
+//The designated initializer
+//
+- (id)initWithItemName:(NSString *)itemName
+        valueInDollars:(int)value
+          serialNumber:(NSString *)serialNumber;
+
+//
+// Setters and getters for member fields (aka, instance variables)
+//
 - (void) setItemName:(NSString *)str;
 - (NSString *) itemName;
 

@@ -9,6 +9,25 @@
 #import "BNRItem.h"
 
 @implementation BNRItem
+
+//
+// The designated initializer
+//
+- (id)initWithItemName:(NSString *)theItemName
+        valueInDollars:(int)theValue
+          serialNumber:(NSString *)theSerialNumber
+{
+    self = [super init];
+    
+    self.itemName = theItemName;
+    self.valueInDollars = theValue;
+    self.serialNumber = theSerialNumber;
+    dateCreated = [[NSDate alloc] init];
+    
+    return self;
+}
+
+
 - (void) setItemName:(NSString *)str
 {
     itemName = str;
@@ -41,9 +60,10 @@
     return dateCreated;
 }
 
+//@Override
 - (NSString *) description
 {
-    return itemName;
+    return [[NSString alloc] initWithFormat:@"%@ %@ %d %@", [self itemName], [self serialNumber], [self valueInDollars], [self dateCreated]];
 }
 
 @end

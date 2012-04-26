@@ -50,6 +50,14 @@ int main(int argc, const char * argv[])
         [item setValueInDollars:100];
         NSLog(@"%@ %@ %d %@", [item itemName], [item serialNumber], [item valueInDollars], [item dateCreated]);
         
+        NSString *description = [[NSString alloc] initWithFormat:@"%@ %@ %d %@", [item itemName], [item serialNumber], [item valueInDollars], [item dateCreated]];
+        NSLog(@"Description:%@", description);
+        NSLog(@"Logging description: %@", item);
+        
+        // Create a firecracker
+        id cracker = [[REMFirecracker alloc] init];
+        NSLog(@"A firecracker saying hello: %@", [cracker sayHello]);
+        
         // Destroy the array pointed to by 'items'
         items = nil;
         
