@@ -15,4 +15,9 @@
     return @"Bang! Boom!";
 }
 
+- (NSString *) sayHello
+{
+    return @"Hello.";
+}
+
 @end

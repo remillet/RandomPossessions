@@ -10,4 +10,6 @@
 
 @interface REMFirecracker : NSObject
 
+- (NSString *) sayHello;
+
 @end
