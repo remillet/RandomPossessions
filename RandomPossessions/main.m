@@ -2,7 +2,7 @@
 //  main.m
 //  RandomPossessions
 //
-//  Created by Duckler Sara on 4/13/12.
+//  Created by Millet Sara on 4/13/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
