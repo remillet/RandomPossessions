@@ -10,6 +10,11 @@
 
 @implementation BNRItem
 
++ (id)randomItem
+{
+    
+}
+
 //
 // The designated initializer
 //

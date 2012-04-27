@@ -44,11 +44,14 @@ int main(int argc, const char * argv[])
         NSLog(@"The array is: %@", items);
         
         // Create a BNRItem instance
-        BNRItem *item = [[BNRItem alloc] init];
-        [item setItemName:@"Red sofa"];
-        [item setSerialNumber:@"A1B2C"];
-        [item setValueInDollars:100];
-        NSLog(@"%@ %@ %d %@", [item itemName], [item serialNumber], [item valueInDollars], [item dateCreated]);
+        BNRItem *item1 = [[BNRItem alloc] init];
+        [item1 setItemName:@"Red sofa"];
+        [item1 setSerialNumber:@"A1B2C"];
+        [item1 setValueInDollars:100];
+        
+        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Blue sofa" valueInDollars:120 serialNumber:@"BS-1ABC2"];
+        
+        NSLog(@"Item created with new designated initializer: %@ %@ %d %@", [item itemName], [item serialNumber], [item valueInDollars], [item dateCreated]);
         
         NSString *description = [[NSString alloc] initWithFormat:@"%@ %@ %d %@", [item itemName], [item serialNumber], [item valueInDollars], [item dateCreated]];
         NSLog(@"Description:%@", description);
