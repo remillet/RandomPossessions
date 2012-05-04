@@ -98,7 +98,12 @@
 //@Override
 - (NSString *) description
 {
-    return [[NSString alloc] initWithFormat:@"%@ %@ %d %@", [self itemName], [self serialNumber], [self valueInDollars], [self dateCreated]];
+    return [[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, recorded on %@", [self itemName], [self serialNumber], [self valueInDollars], [self dateCreated]];
+}
+
+- (void)doSomethingWeird
+{
+	
 }
 
 @end

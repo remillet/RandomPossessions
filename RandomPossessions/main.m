@@ -72,12 +72,19 @@ int main(int argc, const char * argv[])
 
         for (int i = 0; i < 10; i++) {
             BNRItem *p = [BNRItem randomItem];
+			[p doSomethingWeird];
             [items addObject:p];
         }
         
         for (int i = 0; i < 10; i++) {
             NSLog(@"%@", [items objectAtIndex:i]);
         }
+		
+        NSLog(@"---------------------");
+		
+		for (BNRItem *item in items) {
+			NSLog(@"%@", item);
+		}
         
     }
     return 0;

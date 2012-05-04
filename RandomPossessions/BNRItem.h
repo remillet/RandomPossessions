@@ -18,6 +18,8 @@
 
 + (id)randomItem;
 
+- (void)doSomethingWeird;
+
 //
 //The designated initializer
 //
