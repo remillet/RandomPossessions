@@ -64,6 +64,21 @@ int main(int argc, const char * argv[])
         // Destroy the array pointed to by 'items'
         items = nil;
         
+        //
+        // From pg 55
+        //
+        NSLog(@"---------------------");
+        items = [[NSMutableArray alloc] init];
+
+        for (int i = 0; i < 10; i++) {
+            BNRItem *p = [BNRItem randomItem];
+            [items addObject:p];
+        }
+        
+        for (int i = 0; i < 10; i++) {
+            NSLog(@"%@", [items objectAtIndex:i]);
+        }
+        
     }
     return 0;
 }
