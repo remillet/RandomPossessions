@@ -16,6 +16,8 @@
     NSDate *dateCreated;
 }
 
++ (id)randomItem;
+
 //
 //The designated initializer
 //
