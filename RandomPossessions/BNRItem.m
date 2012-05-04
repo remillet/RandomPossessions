@@ -12,7 +12,7 @@
 
 + (id)randomItem
 {
-    
+    // To be done -see page 53-54
 }
 
 //
